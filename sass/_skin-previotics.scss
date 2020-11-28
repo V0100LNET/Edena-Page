@@ -1,0 +1,138 @@
+.text-section{
+
+    background-color:  #faf2f2;
+
+    .text-section-edena{
+        margin-top: 360px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 1.6rem;
+    }
+
+    .title-skin-prebiotics{
+        margin-left: 43px;
+        font-size: 1.7rem;
+        margin-top: 330px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .contain-products {
+        // margin-right: 360px;
+        margin-left: 30px; 
+        margin-right: 30px;
+    }
+
+    .product-name{
+        margin-left: 17px;
+        margin-right: 17px;
+
+        h1{
+            font-size: 1rem;
+        }
+    }
+
+    .categoria{
+        margin-left: 17px;
+        margin-right: 17px;
+        font-size: 0.6rem;
+        margin-top: -18px;
+    }
+
+    .btn-see-all{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: 20px auto;
+
+        a{
+            background-color: black;
+            text-decoration: none;
+            color: white;
+            border: none;
+            outline: none;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            padding: 10px 100px 10px 10px;
+
+            &:hover{
+                background-color: #f2f2f2;
+                color: black;
+            }
+        }
+
+        i{
+            color: white;
+            border: white;
+            position: relative;
+            left: 50%;
+            font-size: 0.8rem;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+    
+}
+
+.dosis-tierra{
+    margin-top: 200px;
+    
+    h1{
+        font-size: 1.7rem;
+        margin-bottom: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    
+
+    .row{
+        // margin-top: 50px;
+        // margin-left: 10px;
+        // margin-right: 10px;
+
+        // .title-tierra{
+        //     font-size: 1.6rem;
+        // }
+
+        img{
+            width: 100px;
+        }
+
+        h1{
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            padding: 30px 0 2px;
+        }
+
+        p{
+            font-size: 0.7rem;
+            font-weight: bold;
+            width: 80%;
+            text-align: left;
+            margin-top: -80px;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 476px){
+    .skin-prebiotics{
+        .contain-products{
+            display: block !important;
+        }
+    }
+}
