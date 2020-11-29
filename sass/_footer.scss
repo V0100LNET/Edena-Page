@@ -1,0 +1,93 @@
+.instagram-images{
+    margin-top: 130px;
+    font-size: 0.9rem;
+
+    img{
+        margin-top: 50px;
+        width: 200px;
+        width: 100%;
+    }
+
+    .social-media{
+        margin-top: 80px;
+    
+        h1{
+            font-size: 0.9rem;
+        }
+    
+        p{
+            margin: 0 10px 0;
+        }
+    }
+    
+    .subcribe-edena{
+        margin-top: 120px;
+        border-top: 2px solid rgb(202, 202, 202);
+        padding-top: 50px;
+    
+        h1{
+            margin-left: 10px;
+        margin-right: 10px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+        }
+        
+        p{
+            font-size: 0.7rem;
+            width: 100%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+        input{
+            margin-top: 10px;
+            width: 100%;
+            padding: 7px 4px 7px;
+            font-size: 0.7rem;
+            border: 1px solid rgb(105, 105, 105);
+            outline: none;
+            background-color: #f2f2f2;
+            opacity: 0.8;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+        nav{
+            margin-left: 10px;
+            margin-right: 10px;
+            a{
+                color: black;
+                // font-weight: bold;
+                font-size: 0.7rem;
+                width: 100%;
+                display: flex;
+                align-self: center;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 20px;
+                text-decoration: none;
+    
+                &:hover{
+                    color: #929292;
+                }
+            }
+    
+            .social-media-links{
+                margin-left: 10px;
+                margin-right: 10px;
+                // background-color: #929292;
+                margin-top: 35px;   
+                
+                p{
+                    display: inline;
+                    margin: 3px;
+                }
+            }
+        }
+    
+    
+    }
+    
+}
+
+

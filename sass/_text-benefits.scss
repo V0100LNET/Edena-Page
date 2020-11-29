@@ -42,9 +42,67 @@
 }
 
 .skin{
+
+    background-color:  #faf2f2;
+    padding-bottom: 80px;
     margin-top: 170px;
+
+    .row{
+        margin-left: 10px;
+    }
 
     img{
         width: 100%;
+    }
+
+    h1{
+        font-size: 1.8rem;
+        width: 70%;
+    }
+
+    .date{
+        margin: 20px 0 20px;
+    }
+
+    .description{
+        width: 75%;
+        font-size: 0.9rem;   
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        border: 1px solid rgb(66, 66, 66);
+        outline: none;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        padding: 10px 10px 10px 10px;
+        width: 50%;
+
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+
+    i{
+        color: black;
+        border: white;
+        position: relative;
+        left: 50%;
+        font-size: 0.8rem;
+
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+.text-nourishes-the-skin{
+    margin-top: 100px;
+    h1{
+        font-size: 1.7rem;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
