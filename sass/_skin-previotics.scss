@@ -130,20 +130,40 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 476px){
     .skin-prebiotics{
+        text-align: center;
         .contain-products{
             display: block !important;
+        }
+
+        .sale{
+            left: 65%;
+        }
+
+        
+    }
+
+    .dosis-tierra{
+
+        h1{
+            font-size: 1.7rem;
+            margin-bottom: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+    
+        .row{
+            p{
+                font-size: 0.9rem;
+                font-weight: bold;
+                width: 50%;
+                text-align: center;
+                margin-top: -90px;
+                margin-left: 0;
+                margin-right: 25%;
+            }
         }
     }
 }

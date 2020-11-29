@@ -33,6 +33,14 @@ header .nav-secundary a {
   margin-left: 20px;
 }
 
+@media (max-width: 476px) {
+  header .nav-principal {
+    margin-left: 20px;
+  }
+  header .nav-secundary {
+    margin-right: 60px;
+  }
+}
 main .row {
   height: 90vh;
 }
@@ -72,6 +80,11 @@ main .btn-buy i:hover {
   color: black;
 }
 
+@media (max-width: 476px) {
+  main .btn-buy a {
+    width: 100%;
+  }
+}
 .text-section {
   background-color: #faf2f2;
   padding-bottom: 100px;
@@ -180,8 +193,31 @@ main .btn-buy i:hover {
 }
 
 @media (max-width: 476px) {
+  .skin-prebiotics {
+    text-align: center;
+  }
   .skin-prebiotics .contain-products {
     display: block !important;
+  }
+  .skin-prebiotics .sale {
+    left: 65%;
+  }
+
+  .dosis-tierra h1 {
+    font-size: 1.7rem;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .dosis-tierra .row p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    margin-top: -90px;
+    margin-left: 0;
+    margin-right: 25%;
   }
 }
 .text-benefits img {
@@ -289,6 +325,11 @@ main .btn-buy i:hover {
   margin: 5px 3px;
 }
 
+@media (max-width: 476px) {
+  .skin a {
+    margin-bottom: 40px;
+  }
+}
 .instagram-images {
   margin-top: 130px;
   font-size: 0.9rem;
@@ -371,6 +412,12 @@ main .btn-buy i:hover {
 .instagram-images .subcribe-edena nav .social-media-links p {
   display: inline;
   margin: 3px;
+}
+
+@media (width: 476px) {
+  footer .hola .row {
+    display: flex !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

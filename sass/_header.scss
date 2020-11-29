@@ -25,3 +25,14 @@ header{
     }
 }
 
+@media (max-width: 476px){
+    header{
+        .nav-principal{
+            margin-left: 20px;
+        }
+
+        .nav-secundary{
+            margin-right: 60px;   
+        }
+    }
+}

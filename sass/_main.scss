@@ -50,3 +50,13 @@ main{
     }
 
 }
+
+@media (max-width: 476px){
+    main{
+        .btn-buy{   
+            a{
+                width: 100%;
+            }
+        }
+    }
+}
