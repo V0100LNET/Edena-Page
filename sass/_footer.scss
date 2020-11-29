@@ -41,15 +41,25 @@
     
         input{
             margin-top: 10px;
-            width: 100%;
+            width: 70%;
             padding: 7px 4px 7px;
             font-size: 0.7rem;
-            border: 1px solid rgb(105, 105, 105);
+            background-color: black;
+            z-index: 1;
             outline: none;
-            background-color: #f2f2f2;
-            opacity: 0.8;
             margin-left: 10px;
-            margin-right: 10px;
+            background-color: white;
+        }
+
+        i{
+            position: relative;
+            text-align: center;
+            font-size: 1.2rem;
+            width: 10%;
+            right: 10%;
+            height: 35px;
+            margin-top: 25px;
+            z-index: 2;
         }
     
         nav{
@@ -57,7 +67,6 @@
             margin-right: 10px;
             a{
                 color: black;
-                // font-weight: bold;
                 font-size: 0.7rem;
                 width: 100%;
                 display: flex;
@@ -75,7 +84,6 @@
             .social-media-links{
                 margin-left: 10px;
                 margin-right: 10px;
-                // background-color: #929292;
                 margin-top: 35px;   
                 
                 p{
@@ -84,7 +92,6 @@
                 }
             }
         }
-    
     
     }
     

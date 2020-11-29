@@ -73,6 +73,22 @@
             }
         }
     }
+
+    .sale{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        left: 75%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-primary{
+        background-color: rgb(235, 187, 115) !important;
+    }
     
 }
 
@@ -111,9 +127,8 @@
 
         }
     }
+
 }
-
-
 
 
 
