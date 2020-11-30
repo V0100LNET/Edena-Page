@@ -17,6 +17,9 @@ body {
 header {
   background-color: black;
 }
+header .icon {
+  display: none;
+}
 header .nav-principal a {
   text-decoration: none;
   color: white;
@@ -33,12 +36,54 @@ header .nav-secundary a {
   margin-left: 20px;
 }
 
-@media (max-width: 476px) {
-  header .nav-principal {
-    margin-left: 20px;
+@media (max-width: 768px) {
+  header .icon {
+    display: block;
   }
-  header .nav-secundary {
-    margin-right: 60px;
+  header .inactive-nav-principal,
+header .inactive-nav-secundary {
+    display: none !important;
+    animation: ease 1s;
+  }
+  header a.show_menu {
+    top: 65px;
+  }
+  header .row {
+    display: block;
+  }
+  header .row .nav-principal {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 50px;
+  }
+  header .row .nav-principal a {
+    font-size: 1.5rem;
+    padding-top: 8px;
+  }
+  header .row .nav-secundary {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  header .row .nav-secundary a {
+    font-size: 1.5rem;
+    padding-top: 8px;
+  }
+  header .row .img-logo {
+    position: absolute;
+    right: 104px;
+    top: 85px;
+  }
+  header .icon {
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    right: 20px;
+    font-size: 1.9rem;
+    color: white;
   }
 }
 main .row {
